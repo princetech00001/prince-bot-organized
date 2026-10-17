@@ -1,0 +1,43 @@
+# ── Session & Auth (NEVER push these — contains your WhatsApp login) ──────────
+sessions/
+session/
+auth_info/
+auth_info_multi/
+*.json.bak
+creds.json
+telegram-data.json
+premium-users.json
+premium-codes.json
+
+# ── Runtime data files (generated when bot runs) ──────────────────────────────
+group-settings.json
+globalban.json
+extra-owners.json
+owner-notes.json
+owner-schedule.json
+bot-settings.json
+extras-data.json
+
+# ── Dependencies ───────────────────────────────────────────────────────────────
+node_modules/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+npm-debug.log*
+logs/
+
+# ── OS files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Environment ───────────────────────────────────────────────────────────────
+.env
+.env.local
+
+# ── Temp / cache ──────────────────────────────────────────────────────────────
+tmp/
+.tmp/
+*.tmp
+
+# Group tool settings and warnings (generated at runtime)
+data/
